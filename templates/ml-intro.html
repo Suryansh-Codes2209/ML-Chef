@@ -1,0 +1,130 @@
+{% extends 'base.html'%}
+
+{% block content %}
+
+<main id="main">
+
+    <!-- ======= Breadcrumbs ======= -->
+    <section class="breadcrumbs">
+      <div class="container">
+
+        <div class="d-flex justify-content-between align-items-center">
+          <h1>MACHINE LEARNING </h1>
+          <ol>
+            <li><a href="index.html">Home</a></li>
+            <li>Machine learning</li>
+          </ol>
+        </div>
+
+      </div>
+    </section><!-- End Breadcrumbs -->
+
+    <section class="inner-page">
+      <div class="container">
+        <h1> <b>About ML:-</b></h1>
+        <br>
+        <br>
+        <p>
+          Machine Learning, as the name says, is all about machines learning automatically without being explicitly programmed or learning without any direct human intervention.
+          >
+          
+          Do you get automatic recommendations on Netflix and Amazon Prime about the movies you should watch next? Or maybe you get options for People You may know on Facebook or LinkedIn? You might also use Siri, Alexa, etc. on your phones. That’s all Machine Learning! This is a technology that is becoming more and more popular. Chances are that Machine Learning is used in almost every technology around you
+          
+
+          let's try to understand it more 
+          
+          As for the formal definition of Machine Learning, we can say that a Machine Learning algorithm learns from experience E with respect to some type of task T and performance measure P, if its performance at tasks in T, as measured by P, improves with experience E.
+          
+
+          Let’s see the different types of Machine Learning now: 
+         </p>
+        
+          
+        <div class="row content" data-aos="fade-up">
+          <div class="col-lg-6">
+          
+            <li><h3>1. Supervised Machine Learning:</h3></li>
+            
+            <p>
+          Imagine a teacher supervising a class. The teacher already knows the correct answers but the learning process doesn’t stop until the students learn the answers as well. This is the essence of Supervised Machine Learning Algorithms. Here, the algorithm learns from a training dataset and makes predictions that are compared with the actual output values. If the predictions are not correct, then the algorithm is modified until it is satisfactory. This learning process continues until the algorithm achieves the required level of performance. Then it can provide the desired output values for any new inputs.         <br>
+          <br>
+            </p>
+          <li><h3>2. UnSupervised Machine Learning:</h3></li>
+          
+          <p>
+          In this case, there is no teacher for the class and the students are left to learn for themselves! So for Unsupervised Machine Learning Algorithms, there is no specific answer to be learned and there is no teacher. In this way, the algorithm doesn’t figure out any output for input but it explores the data. The algorithm is left unsupervised to find the underlying structure in the data in order to learn more and more about the data itself.
+          </p>
+          <br>
+          <li><h3>3. Semi-Supervised Machine Learning:</h3></li>
+          
+          <p>
+          The students learn both from their teacher and by themselves in Semi-Supervised Machine Learning. And you can guess that from the name itself! This is a combination of Supervised and Unsupervised Machine Learning that uses a little amount of labeled data like Supervised Machine Learning and a larger amount of unlabeled data like Unsupervised Machine Learning to train the algorithms. First, the labeled data is used to partially train the Machine Learning Algorithm, and then this partially trained model is used to pseudo-label the rest of the unlabeled data. Finally, the Machine Learning Algorithm is fully trained using a combination of labeled and pseudo-labeled data.
+          </p>
+          
+          <li><h3>4. Reinforcement Machine Learning:</h3></li>
+          <br>
+           
+          <p>
+            Well, here are the hypothetical students who learn from their own mistakes over time (that’s like life!). So the Reinforcement Machine Learning Algorithms learn optimal actions through trial and error. This means that the algorithm decides the next action by learning behaviors that are based on its current state and that will maximize the reward in the future. This is done using reward feedback that allows the Reinforcement Algorithm to learn which are the best behaviors that lead to maximum reward. This reward feedback is known as a reinforcement signal.
+
+          </p>
+             
+             
+             
+              
+          
+        </div>
+        <div class="col-lg-6 order-1 order-lg-2 text-center">
+          <img src="assets/img/features-1.png" alt="" class="img-fluid">
+        </div>
+      
+      
+      </div>
+
+      </div>
+    </section>
+    
+
+    <section class="inner-page">
+      <div class="container">
+    <p>
+      <h1>Unsupervised Machine Learning:-</h1> 
+
+    <br>
+    Unsupervised Machine Learning mainly includes Clustering algorithms. Some of the more popular algorithms in this category are:
+      </p>  
+
+
+
+
+      <div class="row content" data-aos="fade-up">
+        <div class="col-lg-6">
+      <li><h3>1. K Means Clustering Algorithm</h3></li>
+      <p>
+
+        Let’s imagine that you want to search the name “Harry” on Wikipedia. Now, “Harry” can refer to Harry Potter, Prince Harry of England, or any other popular Harry on Wikipedia! So Wikipedia groups the web pages that talk about the same ideas using the K Means Clustering Algorithm (since it is a popular algorithm for cluster analysis). K Means Clustering Algorithm in general uses K number of clusters to operate on a given data set. In this manner, the output contains K clusters with the input data partitioned among the clusters.
+      </p>
+      <br>
+      
+      <li><h3>2. Apriori Algorithm</h3></li>
+      <p>
+        The Apriori Algorithm uses the if-then format to create association rules. This means that if a certain event 1 occurs, then there is a high probability that a certain event 2 also occurs. For example: IF someone buys a car, THEN there is a high chance they buy car insurance as well. The Apriori Algorithm generates this association rule by observing the number of people who bought car insurance after buying a car. For example, Google auto-complete uses the Apriori Algorithm. When a word is typed in Google, the Apriori Algorithm looks for the associated words that are usually typed after that word and displays the possibilities.
+        </p>
+
+        </div>
+        <div class="col-lg-6 order-1 order-lg-2 text-center">
+          <img src="https://i0.wp.com/vinodsblog.com/wp-content/uploads/2018/11/Unsupervised-Learning.png?resize=1300%2C640&ssl=1" alt="" class="img-fluid">
+        </div>
+
+      </div>
+      </div>
+      
+      
+    </section>
+
+
+  </main><!-- End #main -->
+
+
+
+{% endblock %}

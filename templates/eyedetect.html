@@ -1,0 +1,32 @@
+{% extends 'base.html'%}
+
+{% block content %}
+
+<main id="main">
+
+    <!-- ======= Breadcrumbs ======= -->
+    <section class="breadcrumbs">
+      <div class="container">
+
+        <div class="d-flex justify-content-between align-items-center">
+          <h2>Eye Detection using Opencv-python</h2>
+          <ol>
+            <li><a href="{{url_for('index')}}">Home</a></li>
+            <li>Eye Detection - Model</li>
+          </ol>
+        </div>
+
+      </div>
+    </section><!-- End Breadcrumbs -->
+
+    <section class="inner-page">
+      <div class="container" style="justify-content: center; display: flex;">
+        <img src="{{ url_for('video1') }}">
+      </div>
+    </section>
+
+  </main><!-- End #main -->
+
+
+
+{% endblock %}
